@@ -1,0 +1,250 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.first-row{
+    display: flex;
+    flex-direction: column;
+    margin-left: 90px;
+    margin-right: 50px;
+}
+
+.second-row{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-right: 118px;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    background-color: black; 
+    align-items: center;
+    padding: 10px;
+}
+
+.nav-title {
+    color: white;
+    margin-right: 10px;
+}
+
+.nav-links{
+    display: flex;
+    list-style-type: none;
+    margin: 10px;
+    align-items: center;    
+}
+
+button {
+    margin-left: 200px;
+    background-color:darkturquoise;
+    color: white;
+    width: 80px;
+    padding: 2px;
+    border: none;
+}
+
+li {
+    margin: 10px; 
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.card {
+     margin-top: 60px;
+     margin-bottom: 30px;
+     width: 400px;
+     height: 360px;
+     border: 4px solid lightgray;
+}
+
+#top {
+    height: 100px;
+    background: darkturquoise;
+}
+
+.inner-card {
+    margin: 20px;
+    padding: 10px;  
+}
+
+p {
+    padding: 5px;
+}
+
+#profile-pic {
+    position: absolute;
+    top: 190px;
+    width: 100px;
+}
+
+.gear {
+    width: 15px;
+}
+
+.name {
+    padding-top: 10px;
+}
+
+.map {
+    width: 12px;
+    height: 15px;
+    padding-top: 5px;
+}
+
+.map-box {
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.edit {
+    color: blue;
+    text-decoration: underline;
+}
+
+.edit-box{
+    padding-top: 10px;
+}
+
+.edcard-box{
+    border: 3px solid lightgray;
+    width: 400px;
+    border-bottom: none;
+}
+
+.edcard-top {
+    height: 50px;
+    background-color: black;
+    color: white;
+}
+
+.education {
+    padding-top: 12px;
+    padding-left: 18px;
+}
+
+.title {
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-bottom: 6px;
+}
+
+.date {
+    padding-left: 15px;
+    padding-bottom: 10px;
+    color: grey;
+}
+
+.skills {
+    padding-left: 15px;
+}
+
+.name-box{
+    display: flex;
+    justify-content: space-between;
+}
+
+.request-card {
+    display: flex;
+    flex-direction: column;
+    border: 3px solid lightgrey;
+    height: 200px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.request-num {
+    margin-right: 10px;
+    background: grey;
+    width: 20px;
+    padding: 2px;
+    border-radius: 100%;
+    text-align: center;
+}
+
+.accept-box {
+    margin-right: 10px;
+    align-self: center;
+
+}
+
+.request-top{
+    display: flex;
+    height: 50px;
+    background-color: black;
+    color: white;
+    align-items: center;
+    padding-left: 10px;
+}
+
+.request-names{
+    display: flex;
+    align-items: center;
+}
+
+.connection-card{
+    border: 3px solid lightgrey;
+    margin-top: 10px;
+    height: 290px;
+    padding-bottom: 15px;
+}
+
+.connection-top{
+    display: flex;
+    margin-bottom: 10px;
+    background: black;
+    color: white;
+    padding: 15px;
+    align-items: center;
+}
+
+.connect-names {
+    display: flex;
+    align-items: center;
+}
+
+.number-connects {
+    margin-right: 10px;
+    width: 55px;
+    background-color: grey;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.avatar {
+    width: 30px;
+    padding: 10px;
+    border-radius: 100%;
+}
+
+.icons {
+    width: 20px;
+    height: 20px;
+}
+
+.close {
+    margin-left: 5px;
+}
+
+.viewbox {
+    border-top: 3px solid lightgray;
+    margin-top: 3px;
+    padding: 10px;
+}
+
+.view {
+    color: blue;
+    text-decoration: underline;
+    text-align: center;
+}
